@@ -1,6 +1,6 @@
 {
   "name": "WinNoAdmin",
-  "tagline": "A registry entry that adds a context menu entry which allows applications to run without admin rights by forcing them to run as the invoker.",
+  "tagline": "Adds an entry to the context menu to run applications without admin rights.",
   "body": "### What it is\r\nA registry entry that adds a context menu entry which allows applications to run without admin rights by forcing them to run as the invoker.\r\n\r\n### How to install\r\nSimply double-click the registry file (noadmin.reg) to install, or open the registry editor (regedit.exe) as admin, and use \"File > Import...\" and choose to import noadmin.reg\r\n\r\n### How to use\r\nAfter successfully installing, simply right click any .exe or .msi file and choose \"Run without admin rights\"\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
