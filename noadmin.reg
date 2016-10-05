@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+# IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+# CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+# TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+# SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# Executable Files
+[HKEY_CLASSES_ROOT\exefile\shell\forcerunasinvoker]
+@="Run without admin rights"
+[HKEY_CLASSES_ROOT\exefile\shell\forcerunasinvoker\command]
+@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER && start \"\" \"%1\"\""
+[HKEY_CLASSES_ROOT\exefile\shell\forcerunasinvoker]
+"Icon"="%windir%\\System32\\imageres.dll,1"
+
+# MSI Packages
+[HKEY_CLASSES_ROOT\Msi.Package\shell\forcerunasinvoker]
+@="Run without admin rights"
+[HKEY_CLASSES_ROOT\Msi.Package\shell\forcerunasinvoker\command]
+@="cmd /min /C \"set __COMPAT_LAYER=RUNASINVOKER && start \"\" \"%1\"\""
+[HKEY_CLASSES_ROOT\Msi.Package\shell\forcerunasinvoker]
+"Icon"="%windir%\\System32\\imageres.dll,1"
