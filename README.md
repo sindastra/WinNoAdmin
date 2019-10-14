@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W215OZB)
+
 ## Adds an entry to the context menu to run applications without admin rights.
 
 ### What it is
